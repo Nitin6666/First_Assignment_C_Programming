@@ -2,11 +2,10 @@
 
 #include<stdio.h> 
 void main(){
-	char ch;
+	int ASCII_value;
 	
-	printf("Enter a Character : ");
-	scanf("%c",&ch);
+	printf("Enter the ASIII value : ");
+	scanf("%d",&ASCII_value);
 	
-	printf("The ASCII value of the %c is %d",ch,ch);
-	
+	printf("The Character of ASCII value %d is %c",ASCII_value,ASCII_value);
 }
